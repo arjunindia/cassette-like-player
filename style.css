@@ -16,12 +16,11 @@ body {
 .body {
   width: 90vw;
   max-width: 650px;
-  height: calc(100vh - 2rem);
   margin: 1rem;
   background-color: #cdcbcc;
 }
 .speaker {
-  height: 25%;
+  height: 25vh;
   background-color: #cdcbcc;
   margin: 1vh 1vw;
   word-wrap: break-word;
