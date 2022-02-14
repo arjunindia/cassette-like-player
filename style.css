@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 :root {
   box-sizing: border-box;
 }
@@ -28,6 +29,7 @@ body {
   padding: 10px;
   line-height: 4px;
   overflow: hidden;
+  user-select: none;
 }
 h1 {
   margin: 0;
@@ -74,7 +76,22 @@ h1 {
 }
 .hl {
 }
-
+.audio {
+  display: none;
+}
+.screen {
+  width: 97.5%;
+  height: 50px;
+  background-color: #6bff5e;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  letter-spacing: 0.2rem;
+  font-size: calc(clamp(0.3rem, 3vw, 1.5rem) * 1.5);
+  border: 1px dashed black;
+}
 @media screen and (max-height: 300px) {
   .speaker {
     display: none;
